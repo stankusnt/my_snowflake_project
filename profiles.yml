@@ -10,7 +10,7 @@ my_snowflake_project:
       password: Littletroll7712
 
       role: ACCOUNTADMIN
-      database: FREE_COMPANY_DATASET
+      database: STG
       warehouse: COMPUTE_WH
       schema: PUBLIC
       threads: 1

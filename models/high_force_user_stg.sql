@@ -1,5 +1,5 @@
 {{ config(materialized='table', sort='timestamp', dist='user_id') }}
 
 SELECT *
-FROM {{ ref('first_computer_software') }}
-WHERE FOUNDED = '2015'
+FROM {{ ref('user_stg') }}
+WHERE LEFT_LBF > 10
