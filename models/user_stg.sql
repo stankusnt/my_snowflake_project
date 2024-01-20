@@ -1,6 +1,6 @@
-{{ config(materialized='table', sort='timestamp', dist='user_id') }}
+{{ config(materialized='table') }}
 
 
-SELECT *
+SELECT A.ACTIVITY, A.LEFT_LBF, A.RIGHT_LBF
 FROM B181_U13 A
-LEFT JOIN B181_U13 B ON A.DATETIME = MIN(B.DATETIME)
+JOIN B181_U13 B ON A.DATETIME = B.DATETIME

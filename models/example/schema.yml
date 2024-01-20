@@ -20,19 +20,19 @@ models:
   #         - unique
   #         - not_null
 
-  - name: first_computer_software
+  - name: user_stg
     description: "TYPICAL MODEL"
     columns:
-      - name: ID
+      - name: ACTIVITY
         description: "The primary key for this table"
         tests:
           - unique
           - not_null
 
-  - name: founded_2015
+  - name: high_force_user_stg
     description: "TYPICAL MODEL"
     columns:
-      - name: ID
+      - name: ACTIVITY
         description: "The primary key for this table"
         tests:
           - unique

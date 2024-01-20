@@ -1,5 +1,5 @@
-{{ config(materialized='table', sort='timestamp', dist='user_id') }}
+{{ config(materialized='table') }}
 
-SELECT *
+SELECT ACTIVITY, LEFT_LBF, RIGHT_LBF
 FROM {{ ref('user_stg') }}
 WHERE LEFT_LBF > 10
