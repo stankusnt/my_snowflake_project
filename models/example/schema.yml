@@ -29,7 +29,7 @@ models:
           - unique
           - not_null
 
-    - name: Customer_check
+  - name: Customer_check
     description: "TYPICAL MODEL"
     columns:
       - name: L_ORDERKEY
