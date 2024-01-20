@@ -3,7 +3,7 @@ my_snowflake_project:
   outputs:
     prod:
       type: snowflake
-      account: JN59694
+      account: yrfhcnw-jn59694
 
       # User/password auth
       user: stankusnt
