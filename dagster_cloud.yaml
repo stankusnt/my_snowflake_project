@@ -1,0 +1,6 @@
+locations:
+- build:
+    directory: ./my_snowflake_project
+  code_source:
+    module_name: my_snowflake_project.definitions
+  location_name: my_snowflake_project
