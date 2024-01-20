@@ -20,19 +20,19 @@ models:
   #         - unique
   #         - not_null
 
-  - name: Customer_orders
+  - name: first_computer_software
     description: "TYPICAL MODEL"
     columns:
-      - name: L_ORDERKEY
+      - name: ID
         description: "The primary key for this table"
         tests:
           - unique
           - not_null
 
-  - name: Customer_check
+  - name: founded_2015
     description: "TYPICAL MODEL"
     columns:
-      - name: L_ORDERKEY
+      - name: ID
         description: "The primary key for this table"
         tests:
           - unique

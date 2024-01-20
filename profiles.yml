@@ -10,9 +10,9 @@ my_snowflake_project:
       password: Littletroll7712
 
       role: ACCOUNTADMIN
-      database: SNOWFLAKE_SAMPLE_DATA
+      database: FREE_COMPANY_DATASET
       warehouse: COMPUTE_WH
-      schema: TPCH_SF1000
+      schema: PUBLIC
       threads: 1
       client_session_keep_alive: False
       query_tag: #dbt
